@@ -1,0 +1,126 @@
+[{
+  "_id": {
+    "$oid": "6ac5f2a9af707ce42984ac77"
+  },
+  "eventId": "E001",
+  "orderId": "O001",
+  "courierId": "C001",
+  "zone": "Center",
+  "eventTime": {
+    "$date": "2026-10-07T08:00:00.000Z"
+  },
+  "status": "CREATED",
+  "description": "Заказ создан"
+},
+{
+  "_id": {
+    "$oid": "6ac5f2a9af707ce42984ac78"
+  },
+  "eventId": "E002",
+  "orderId": "O001",
+  "courierId": "C001",
+  "zone": "Center",
+  "eventTime": {
+    "$date": "2026-10-07T08:30:00.000Z"
+  },
+  "status": "IN_TRANSIT",
+  "description": "Курьер получил заказ"
+},
+{
+  "_id": {
+    "$oid": "6ac5f2a9af707ce42984ac79"
+  },
+  "eventId": "E003",
+  "orderId": "O001",
+  "courierId": "C001",
+  "zone": "Center",
+  "eventTime": {
+    "$date": "2026-10-07T09:00:00.000Z"
+  },
+  "status": "DELIVERED",
+  "description": "Заказ доставлен"
+},
+{
+  "_id": {
+    "$oid": "6ac5f2a9af707ce42984ac7a"
+  },
+  "eventId": "E004",
+  "orderId": "O002",
+  "courierId": "C001",
+  "zone": "Center",
+  "eventTime": {
+    "$date": "2026-10-07T09:30:00.000Z"
+  },
+  "status": "CREATED",
+  "description": "Заказ создан"
+},
+{
+  "_id": {
+    "$oid": "6ac5f2a9af707ce42984ac7b"
+  },
+  "eventId": "E005",
+  "orderId": "O002",
+  "courierId": "C001",
+  "zone": "Center",
+  "eventTime": {
+    "$date": "2026-10-07T10:00:00.000Z"
+  },
+  "status": "IN_TRANSIT",
+  "description": "Заказ передан курьеру"
+},
+{
+  "_id": {
+    "$oid": "6ac5f2a9af707ce42984ac7c"
+  },
+  "eventId": "E006",
+  "orderId": "O003",
+  "courierId": "C001",
+  "zone": "North",
+  "eventTime": {
+    "$date": "2026-10-07T12:00:00.000Z"
+  },
+  "status": "CREATED",
+  "description": "Заказ создан"
+},
+{
+  "_id": {
+    "$oid": "6ac5f2a9af707ce42984ac7d"
+  },
+  "eventId": "E007",
+  "orderId": "O006",
+  "courierId": "C002",
+  "zone": "West",
+  "eventTime": {
+    "$date": "2026-10-07T08:00:00.000Z"
+  },
+  "status": "CREATED",
+  "description": "Заказ создан"
+},
+{
+  "_id": {
+    "$oid": "6ac5f2a9af707ce42984ac7e"
+  },
+  "eventId": "E008",
+  "orderId": "O006",
+  "courierId": "C002",
+  "zone": "West",
+  "eventTime": {
+    "$date": "2026-10-07T08:30:00.000Z"
+  },
+  "status": "DELIVERED",
+  "description": "Заказ доставлен"
+},
+{
+  "_id": {
+    "$oid": "6ac5f2a9af707ce42984ac7f"
+  },
+  "eventId": "E009",
+  "orderId": "O011",
+  "courierId": "C003",
+  "zone": "East",
+  "eventTime": {
+    "$date": "2026-10-07T09:00:00.000Z"
+  },
+  "status": "CREATED",
+  "description": "Заказ создан"
+}]
