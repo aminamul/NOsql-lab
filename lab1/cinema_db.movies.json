@@ -1,0 +1,169 @@
+[{
+  "_id": {
+    "$oid": "6a97cf0f4407d99819b4a5e0"
+  },
+  "movieId": 1,
+  "title": "Inception",
+  "year": 2010,
+  "rating": 9.2,
+  "country": "USA",
+  "genres": [
+    "Sci-Fi",
+    "Action",
+    "Thriller",
+    "Mind-Bending"
+  ],
+  "details": {
+    "director": "Christopher Nolan",
+    "duration": 148
+  }
+},
+{
+  "_id": {
+    "$oid": "6a97cf0f4407d99819b4a5e1"
+  },
+  "movieId": 2,
+  "title": "Interstellar",
+  "year": 2014,
+  "rating": 8.7,
+  "country": "USA",
+  "genres": [
+    "Sci-Fi",
+    "Drama",
+    "Adventure"
+  ],
+  "details": {
+    "director": "Christopher Nolan",
+    "duration": 169
+  }
+},
+{
+  "_id": {
+    "$oid": "6a97cf0f4407d99819b4a5e2"
+  },
+  "movieId": 3,
+  "title": "Parasite",
+  "year": 2019,
+  "rating": 8.5,
+  "country": "South Korea",
+  "genres": [
+    "Drama",
+    "Thriller"
+  ],
+  "details": {
+    "director": "Bong Joon-ho",
+    "duration": 132
+  }
+},
+{
+  "_id": {
+    "$oid": "6a97cf0f4407d99819b4a5e3"
+  },
+  "movieId": 4,
+  "title": "The Dark Knight",
+  "year": 2008,
+  "rating": 9.1,
+  "country": "USA",
+  "genres": [
+    "Action",
+    "Crime",
+    "Drama"
+  ],
+  "details": {
+    "director": "Christopher Nolan",
+    "duration": 152
+  }
+},
+{
+  "_id": {
+    "$oid": "6a97cf0f4407d99819b4a5e4"
+  },
+  "movieId": 5,
+  "title": "Spirited Away",
+  "year": 2001,
+  "rating": 8.6,
+  "country": "Japan",
+  "genres": [
+    "Animation",
+    "Adventure",
+    "Family"
+  ],
+  "details": {
+    "director": "Hayao Miyazaki",
+    "duration": 125
+  }
+},
+{
+  "_id": {
+    "$oid": "6a97cf0f4407d99819b4a5e5"
+  },
+  "movieId": 6,
+  "title": "Pulp Fiction",
+  "year": 1994,
+  "rating": 9,
+  "country": "USA",
+  "genres": [
+    "Crime",
+    "Drama"
+  ],
+  "details": {
+    "director": "Quentin Tarantino",
+    "duration": 154
+  }
+},
+{
+  "_id": {
+    "$oid": "6a97cf0f4407d99819b4a5e6"
+  },
+  "movieId": 7,
+  "title": "Whiplash",
+  "year": 2014,
+  "rating": 8.6,
+  "country": "USA",
+  "genres": [
+    "Drama",
+    "Music"
+  ],
+  "details": {
+    "director": "Damien Chazelle",
+    "duration": 106
+  }
+},
+{
+  "_id": {
+    "$oid": "6a97cf0f4407d99819b4a5e8"
+  },
+  "movieId": 9,
+  "title": "Coco",
+  "year": 2017,
+  "rating": 8.5,
+  "country": "USA",
+  "genres": [
+    "Animation",
+    "Adventure",
+    "Comedy"
+  ],
+  "details": {
+    "director": "Lee Unkrich",
+    "duration": 105
+  }
+},
+{
+  "_id": {
+    "$oid": "6a97cf0f4407d99819b4a5e9"
+  },
+  "movieId": 10,
+  "title": "The Prestige",
+  "year": 2006,
+  "rating": 8.6,
+  "country": "USA",
+  "genres": [
+    "Drama",
+    "Mystery",
+    "Sci-Fi"
+  ],
+  "details": {
+    "director": "Christopher Nolan",
+    "duration": 130
+  }
+}]
