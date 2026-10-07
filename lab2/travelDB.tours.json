@@ -1,0 +1,199 @@
+[{
+  "_id": {
+    "$oid": "6aa0f7f3047b25a67348133f"
+  },
+  "tourId": 1001,
+  "name": "Almaty Mountains",
+  "price": 180000,
+  "duration": 5,
+  "countryId": 101,
+  "hotel": {
+    "name": "Alatau Resort",
+    "stars": 5
+  },
+  "services": [
+    "Breakfast",
+    "Transfer",
+    "Guide",
+    "Insurance"
+  ],
+  "excursions": [
+    {
+      "name": "Mountain Trip",
+      "price": 25000
+    },
+    {
+      "name": "City Tour",
+      "price": 15000
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa0f7f3047b25a673481340"
+  },
+  "tourId": 1002,
+  "name": "Astana Weekend",
+  "price": 120000,
+  "duration": 3,
+  "countryId": 101,
+  "hotel": {
+    "name": "Nomad Hotel",
+    "stars": 4
+  },
+  "services": [
+    "Breakfast",
+    "City tour"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa0f7f3047b25a673481341"
+  },
+  "tourId": 1003,
+  "name": "Issyk-Kul Relax",
+  "price": 210000,
+  "duration": 6,
+  "countryId": 102,
+  "hotel": {
+    "name": "Blue Lake Resort",
+    "stars": 5
+  },
+  "services": [
+    "Breakfast",
+    "Transfer",
+    "Spa"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa0f7f3047b25a673481342"
+  },
+  "tourId": 1004,
+  "name": "Bishkek City",
+  "price": 145000,
+  "duration": 4,
+  "countryId": 102,
+  "hotel": {
+    "name": "Bishkek Plaza",
+    "stars": 4
+  },
+  "services": [
+    "Breakfast",
+    "Guide"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa0f7f3047b25a673481343"
+  },
+  "tourId": 1005,
+  "name": "Tashkent Discovery",
+  "price": 190000,
+  "duration": 5,
+  "countryId": 103,
+  "hotel": {
+    "name": "Silk Road Hotel",
+    "stars": 5
+  },
+  "services": [
+    "Breakfast",
+    "Transfer",
+    "Guide"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa0f7f3047b25a673481344"
+  },
+  "tourId": 1006,
+  "name": "Samarkand History",
+  "price": 230000,
+  "duration": 7,
+  "countryId": 103,
+  "hotel": {
+    "name": "Registan Hotel",
+    "stars": 4
+  },
+  "services": [
+    "Breakfast",
+    "Excursion",
+    "Guide"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa0f7f3047b25a673481345"
+  },
+  "tourId": 1007,
+  "name": "Baku Adventure",
+  "price": 260000,
+  "duration": 6,
+  "countryId": 104,
+  "hotel": {
+    "name": "Caspian Hotel",
+    "stars": 5
+  },
+  "services": [
+    "Breakfast",
+    "Transfer",
+    "Excursion"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa0f7f3047b25a673481346"
+  },
+  "tourId": 1008,
+  "name": "Tbilisi Old Town",
+  "price": 250000,
+  "duration": 5,
+  "countryId": 105,
+  "hotel": {
+    "name": "Old Town Hotel",
+    "stars": 4
+  },
+  "services": [
+    "Breakfast",
+    "Guide",
+    "Transfer"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa0f7f3047b25a673481347"
+  },
+  "tourId": 1009,
+  "name": "Batumi Sea",
+  "price": 280000,
+  "duration": 7,
+  "countryId": 105,
+  "hotel": {
+    "name": "Black Sea Resort",
+    "stars": 5
+  },
+  "services": [
+    "Breakfast",
+    "Transfer",
+    "Pool"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aa0f7f3047b25a673481348"
+  },
+  "tourId": 1010,
+  "name": "Yerevan Culture",
+  "price": 220000,
+  "duration": 5,
+  "countryId": 106,
+  "hotel": {
+    "name": "Ararat Hotel",
+    "stars": 4
+  },
+  "services": [
+    "Breakfast",
+    "Guide",
+    "Excursion"
+  ]
+}]

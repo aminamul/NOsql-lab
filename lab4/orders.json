@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "6ab3601e4a54312663052308"
+  },
+  "orderId": "ORD-1",
+  "customerId": 501,
+  "total": 420000,
+  "status": "paid"
+},
+{
+  "_id": {
+    "$oid": "6ab3601e4a54312663052309"
+  },
+  "orderId": "ORD-2",
+  "customerId": 501,
+  "total": 25000,
+  "status": "paid"
+},
+{
+  "_id": {
+    "$oid": "6ab3601e4a5431266305230a"
+  },
+  "orderId": "ORD-3",
+  "customerId": 502,
+  "total": 310000,
+  "status": "new"
+},
+{
+  "_id": {
+    "$oid": "6ab3601e4a5431266305230b"
+  },
+  "orderId": "ORD-4",
+  "customerId": 503,
+  "total": 140000,
+  "status": "shipped"
+}]

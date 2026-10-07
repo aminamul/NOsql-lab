@@ -1,0 +1,201 @@
+[{
+  "_id": {
+    "$oid": "6aaa38531a53f26d11742b80"
+  },
+  "productId": 101,
+  "name": "Laptop Pro 15",
+  "brand": "TechCorp",
+  "price": 1200,
+  "stock": 15,
+  "rating": 4.8,
+  "active": true,
+  "tags": [
+    "electronics",
+    "laptops",
+    "bestseller"
+  ],
+  "specifications": {
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "color": "Space Gray"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaa38611a53f26d11742b81"
+  },
+  "productId": 102,
+  "name": "Wireless Mouse",
+  "brand": "TechCorp",
+  "price": 25,
+  "stock": 50,
+  "rating": 4.2,
+  "active": true,
+  "tags": [
+    "electronics",
+    "accessories"
+  ],
+  "specifications": {
+    "color": "Black",
+    "weight": "90g"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaa38611a53f26d11742b82"
+  },
+  "productId": 103,
+  "name": "Mechanical Keyboard",
+  "brand": "KeyMaster",
+  "price": 90,
+  "stock": 20,
+  "rating": 4.7,
+  "active": true,
+  "tags": [
+    "gaming",
+    "accessories"
+  ],
+  "specifications": {
+    "color": "RGB",
+    "switchType": "Red"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaa38611a53f26d11742b83"
+  },
+  "productId": 104,
+  "name": "4K Monitor 27",
+  "brand": "Vision",
+  "price": 350,
+  "stock": 8,
+  "rating": 4.6,
+  "active": true,
+  "tags": [
+    "electronics",
+    "monitors"
+  ],
+  "specifications": {
+    "color": "Black",
+    "resolution": "4K"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaa38611a53f26d11742b84"
+  },
+  "productId": 105,
+  "name": "USB-C Hub",
+  "brand": "TechCorp",
+  "price": 40,
+  "stock": 35,
+  "rating": 4.1,
+  "active": true,
+  "tags": [
+    "accessories"
+  ],
+  "specifications": {
+    "ports": 6,
+    "color": "Silver"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaa38611a53f26d11742b85"
+  },
+  "productId": 106,
+  "name": "Gaming Headset",
+  "brand": "SoundPro",
+  "price": 80,
+  "stock": 0,
+  "rating": 3.9,
+  "active": false,
+  "tags": [
+    "gaming",
+    "audio"
+  ],
+  "specifications": {
+    "color": "Red",
+    "connection": "Wireless"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaa38611a53f26d11742b86"
+  },
+  "productId": 107,
+  "name": "Smartphone X",
+  "brand": "MobileOne",
+  "price": 950,
+  "stock": 12,
+  "rating": 4.9,
+  "active": true,
+  "tags": [
+    "electronics",
+    "phones",
+    "bestseller"
+  ],
+  "specifications": {
+    "ram": "8GB",
+    "color": "Blue"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaa38611a53f26d11742b87"
+  },
+  "productId": 108,
+  "name": "Webcam Full HD",
+  "brand": "Vision",
+  "price": 60,
+  "stock": 18,
+  "rating": 4.3,
+  "active": true,
+  "tags": [
+    "electronics",
+    "accessories"
+  ],
+  "specifications": {
+    "resolution": "1080p",
+    "color": "Black"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaa38611a53f26d11742b88"
+  },
+  "productId": 109,
+  "name": "External SSD 1TB",
+  "brand": "DataStore",
+  "price": 110,
+  "stock": 25,
+  "rating": 4.5,
+  "active": true,
+  "tags": [
+    "storage",
+    "accessories"
+  ],
+  "specifications": {
+    "speed": "1050MB/s",
+    "color": "Gray"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaa38611a53f26d11742b89"
+  },
+  "productId": 110,
+  "name": "Old Trackpad",
+  "brand": "LegacyTech",
+  "price": 15,
+  "stock": 0,
+  "rating": 2.5,
+  "active": false,
+  "tags": [
+    "accessories",
+    "outlet"
+  ],
+  "specifications": {
+    "color": "White"
+  }
+}]

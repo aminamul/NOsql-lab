@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "6ab360174a54312663052305"
+  },
+  "customerId": 501,
+  "name": "Aidar",
+  "city": "Almaty"
+},
+{
+  "_id": {
+    "$oid": "6ab360174a54312663052306"
+  },
+  "customerId": 502,
+  "name": "Dana",
+  "city": "Astana"
+},
+{
+  "_id": {
+    "$oid": "6ab360174a54312663052307"
+  },
+  "customerId": 503,
+  "name": "Timur",
+  "city": "Shymkent"
+}]

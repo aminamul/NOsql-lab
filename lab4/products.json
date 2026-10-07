@@ -1,0 +1,448 @@
+[{
+  "_id": {
+    "$oid": "6ab360084a543126630522e7"
+  },
+  "productId": 101,
+  "name": "Laptop Lenovo",
+  "category": "Notebook",
+  "price": 420000,
+  "stock": 15,
+  "rating": 4.7,
+  "tags": [
+    "office",
+    "programming"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab360084a543126630522e8"
+  },
+  "productId": 102,
+  "name": "Laptop ASUS",
+  "category": "Notebook",
+  "price": 520000,
+  "stock": 8,
+  "rating": 4.8,
+  "tags": [
+    "gaming",
+    "programming"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab360084a543126630522e9"
+  },
+  "productId": 103,
+  "name": "Phone Samsung",
+  "category": "Smartphone",
+  "price": 310000,
+  "stock": 25,
+  "rating": 4.6,
+  "tags": [
+    "mobile",
+    "android"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab360084a543126630522ea"
+  },
+  "productId": 104,
+  "name": "Phone Apple",
+  "category": "Smartphone",
+  "price": 650000,
+  "stock": 12,
+  "rating": 4.9,
+  "tags": [
+    "mobile",
+    "ios"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab360084a543126630522eb"
+  },
+  "productId": 105,
+  "name": "Tablet iPad",
+  "category": "Tablet",
+  "price": 380000,
+  "stock": 10,
+  "rating": 4.8,
+  "tags": [
+    "mobile",
+    "ios"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab360084a543126630522ec"
+  },
+  "productId": 106,
+  "name": "Monitor Dell",
+  "category": "Accessories",
+  "price": 150000,
+  "stock": 20,
+  "rating": 4.5,
+  "tags": [
+    "office",
+    "display"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab360084a543126630522ed"
+  },
+  "productId": 107,
+  "name": "Keyboard Razer",
+  "category": "Accessories",
+  "price": 45000,
+  "stock": 30,
+  "rating": 4.7,
+  "tags": [
+    "gaming",
+    "rgb"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab360084a543126630522ee"
+  },
+  "productId": 108,
+  "name": "Mouse Logitech",
+  "category": "Accessories",
+  "price": 25000,
+  "stock": 50,
+  "rating": 4.6,
+  "tags": [
+    "office",
+    "wireless"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab360084a543126630522ef"
+  },
+  "productId": 109,
+  "name": "Laptop HP",
+  "category": "Notebook",
+  "price": 390000,
+  "stock": 5,
+  "rating": 4.3,
+  "tags": [
+    "office"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab360084a543126630522f0"
+  },
+  "productId": 110,
+  "name": "Phone Xiaomi",
+  "category": "Smartphone",
+  "price": 190000,
+  "stock": 40,
+  "rating": 4.4,
+  "tags": [
+    "mobile",
+    "android"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab360084a543126630522f1"
+  },
+  "productId": 111,
+  "name": "Tablet Samsung",
+  "category": "Tablet",
+  "price": 270000,
+  "stock": 14,
+  "rating": 4.5,
+  "tags": [
+    "mobile",
+    "android"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab360084a543126630522f2"
+  },
+  "productId": 112,
+  "name": "Smartwatch Apple",
+  "category": "Wearables",
+  "price": 220000,
+  "stock": 18,
+  "rating": 4.9,
+  "tags": [
+    "ios",
+    "fitness"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab360084a543126630522f3"
+  },
+  "productId": 113,
+  "name": "Smartwatch Xiaomi",
+  "category": "Wearables",
+  "price": 45000,
+  "stock": 60,
+  "rating": 4.2,
+  "tags": [
+    "android",
+    "fitness"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab360084a543126630522f4"
+  },
+  "productId": 114,
+  "name": "Headphones Sony",
+  "category": "Audio",
+  "price": 140000,
+  "stock": 22,
+  "rating": 4.8,
+  "tags": [
+    "wireless",
+    "music"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab360084a543126630522f5"
+  },
+  "productId": 115,
+  "name": "Headphones JBL",
+  "category": "Audio",
+  "price": 55000,
+  "stock": 35,
+  "rating": 4.5,
+  "tags": [
+    "wireless",
+    "music"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab360084a543126630522f6"
+  },
+  "productId": 116,
+  "name": "Microphone HyperX",
+  "category": "Audio",
+  "price": 75000,
+  "stock": 11,
+  "rating": 4.7,
+  "tags": [
+    "streaming",
+    "gaming"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab360084a543126630522f7"
+  },
+  "productId": 117,
+  "name": "Router TP-Link",
+  "category": "Networking",
+  "price": 30000,
+  "stock": 25,
+  "rating": 4.3,
+  "tags": [
+    "wifi",
+    "home"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab360084a543126630522f8"
+  },
+  "productId": 118,
+  "name": "Switch Cisco",
+  "category": "Networking",
+  "price": 180000,
+  "stock": 4,
+  "rating": 4.9,
+  "tags": [
+    "office",
+    "pro"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab360084a543126630522f9"
+  },
+  "productId": 119,
+  "name": "Printer HP",
+  "category": "Office",
+  "price": 95000,
+  "stock": 7,
+  "rating": 4.1,
+  "tags": [
+    "print",
+    "office"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab360084a543126630522fa"
+  },
+  "productId": 120,
+  "name": "Projector Epson",
+  "category": "Office",
+  "price": 310000,
+  "stock": 3,
+  "rating": 4.6,
+  "tags": [
+    "presentation"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab360084a543126630522fb"
+  },
+  "productId": 121,
+  "name": "External SSD 1TB",
+  "category": "Storage",
+  "price": 65000,
+  "stock": 45,
+  "rating": 4.8,
+  "tags": [
+    "fast",
+    "backup"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab360084a543126630522fc"
+  },
+  "productId": 122,
+  "name": "Flash Drive 64GB",
+  "category": "Storage",
+  "price": 6000,
+  "stock": 100,
+  "rating": 4.2,
+  "tags": [
+    "usb",
+    "portable"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab360084a543126630522fd"
+  },
+  "productId": 123,
+  "name": "Graphic Tablet Wacom",
+  "category": "Accessories",
+  "price": 120000,
+  "stock": 9,
+  "rating": 4.7,
+  "tags": [
+    "drawing",
+    "design"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab360084a543126630522fe"
+  },
+  "productId": 124,
+  "name": "Webcam Logitech",
+  "category": "Accessories",
+  "price": 50000,
+  "stock": 16,
+  "rating": 4.4,
+  "tags": [
+    "stream",
+    "office"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab360084a543126630522ff"
+  },
+  "productId": 125,
+  "name": "Chair Secretlab",
+  "category": "Furniture",
+  "price": 240000,
+  "stock": 5,
+  "rating": 4.9,
+  "tags": [
+    "gaming",
+    "comfort"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab360084a54312663052300"
+  },
+  "productId": 126,
+  "name": "Desk standing",
+  "category": "Furniture",
+  "price": 190000,
+  "stock": 6,
+  "rating": 4.5,
+  "tags": [
+    "office",
+    "comfort"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab360084a54312663052301"
+  },
+  "productId": 127,
+  "name": "Power Bank 20000mAh",
+  "category": "Accessories",
+  "price": 22000,
+  "stock": 55,
+  "rating": 4.6,
+  "tags": [
+    "mobile",
+    "portable"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab360084a54312663052302"
+  },
+  "productId": 128,
+  "name": "VR Headset Meta",
+  "category": "Gaming",
+  "price": 290000,
+  "stock": 8,
+  "rating": 4.8,
+  "tags": [
+    "vr",
+    "gaming"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab360084a54312663052303"
+  },
+  "productId": 129,
+  "name": "Graphics Card RTX 4070",
+  "category": "Components",
+  "price": 380000,
+  "stock": 7,
+  "rating": 4.9,
+  "tags": [
+    "gaming",
+    "pc"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab360084a54312663052304"
+  },
+  "productId": 130,
+  "name": "Processor Intel Core i7",
+  "category": "Components",
+  "price": 170000,
+  "stock": 12,
+  "rating": 4.7,
+  "tags": [
+    "pc",
+    "upgrade"
+  ]
+}]
