@@ -1,0 +1,209 @@
+MATCH ()-[r]->()
+RETURN type(r) AS RelationshipType,
+       count(r) AS Total;
+
+MATCH (n)
+RETURN labels(n) AS NodeType,
+       count(n) AS Total;
+
+MATCH (n:Temp {id: 999})
+RETURN count(n) AS Remaining;
+
+MATCH (n:Temp {id: 999})
+DETACH DELETE n;
+
+CREATE (:Temp {
+    id: 999,
+    note: "delete-me"
+});
+
+MATCH (d:Developer {id: 1})
+      -[r:WORKS_ON]->
+      (p:Project {id: 101})
+SET r.role = "Team Leader"
+RETURN d.name AS Developer,
+       r.role AS Role,
+       p.title AS Project;
+
+MATCH (d:Developer {id: 1})
+SET d.experience_years = 2
+RETURN d;
+
+MATCH (p:Project)
+WHERE p.budget >= 1000000
+RETURN p.title AS Project,
+       p.budget AS Budget
+ORDER BY Budget DESC;
+
+MATCH (d:Developer)
+WHERE d.department = "Backend"
+RETURN d.name AS Developer,
+       d.department AS Department;
+
+MATCH (d:Developer)-[:WORKS_ON]->(p:Project)-[:USES]->(t:Technology)
+RETURN d.name AS Developer,
+       p.title AS Project,
+       t.name AS Technology
+ORDER BY Developer;
+
+MATCH (p:Project)<-[:WORKS_ON]-(d:Developer)
+WHERE p.title = "Online Store"
+RETURN p.title AS Project,
+       d.name AS Developer;
+
+MATCH (d:Developer)-[:WORKS_ON]->(p:Project)
+RETURN d.name AS Developer,
+       p.title AS Project;
+
+MATCH (d:Developer)
+RETURN d.name AS Developer,
+       d.level AS Level,
+       d.department AS Department
+ORDER BY Developer
+LIMIT 10;
+
+MATCH (d:Developer)
+RETURN d;
+
+MATCH (p:Project)-[r:USES]->(t:Technology)
+RETURN p, r, t;
+
+MATCH (d:Developer)-[r:WORKS_ON]->(p:Project)
+RETURN d, r, p;
+
+MATCH (n)
+RETURN n;
+
+// Разработчики работают над проектами
+
+MATCH (d:Developer {id: 1}), (p:Project {id: 101})
+MERGE (d)-[:WORKS_ON]->(p);
+
+MATCH (d:Developer {id: 1}), (p:Project {id: 102})
+MERGE (d)-[:WORKS_ON]->(p);
+
+MATCH (d:Developer {id: 2}), (p:Project {id: 101})
+MERGE (d)-[:WORKS_ON]->(p);
+
+MATCH (d:Developer {id: 2}), (p:Project {id: 103})
+MERGE (d)-[:WORKS_ON]->(p);
+
+MATCH (d:Developer {id: 3}), (p:Project {id: 102})
+MERGE (d)-[:WORKS_ON]->(p);
+
+MATCH (d:Developer {id: 3}), (p:Project {id: 103})
+MERGE (d)-[:WORKS_ON]->(p);
+
+MATCH (d:Developer {id: 4}), (p:Project {id: 103})
+MERGE (d)-[:WORKS_ON]->(p);
+
+MATCH (d:Developer {id: 4}), (p:Project {id: 104})
+MERGE (d)-[:WORKS_ON]->(p);
+
+
+// Проекты используют технологии
+
+MATCH (p:Project {id: 101}), (t:Technology {id: 201})
+MERGE (p)-[:USES]->(t);
+
+MATCH (p:Project {id: 101}), (t:Technology {id: 202})
+MERGE (p)-[:USES]->(t);
+
+MATCH (p:Project {id: 102}), (t:Technology {id: 201})
+MERGE (p)-[:USES]->(t);
+
+MATCH (p:Project {id: 102}), (t:Technology {id: 203})
+MERGE (p)-[:USES]->(t);
+
+MATCH (p:Project {id: 103}), (t:Technology {id: 202})
+MERGE (p)-[:USES]->(t);
+
+MATCH (p:Project {id: 103}), (t:Technology {id: 203})
+MERGE (p)-[:USES]->(t);
+
+MATCH (p:Project {id: 103}), (t:Technology {id: 204})
+MERGE (p)-[:USES]->(t);
+
+MATCH (p:Project {id: 104}), (t:Technology {id: 201})
+MERGE (p)-[:USES]->(t);
+
+MATCH (p:Project {id: 104}), (t:Technology {id: 204})
+MERGE (p)-[:USES]->(t);
+
+// Разработчики
+
+MERGE (d1:Developer {id: 1})
+SET d1.name = "Alex",
+    d1.level = "Senior",
+    d1.department = "Backend";
+
+MERGE (d2:Developer {id: 2})
+SET d2.name = "Maria",
+    d2.level = "Middle",
+    d2.department = "Frontend";
+
+MERGE (d3:Developer {id: 3})
+SET d3.name = "Daniel",
+    d3.level = "Junior",
+    d3.department = "Backend";
+
+MERGE (d4:Developer {id: 4})
+SET d4.name = "Sarah",
+    d4.level = "Middle",
+    d4.department = "Mobile";
+
+// Проекты
+
+MERGE (p1:Project {id: 101})
+SET p1.title = "Online Store",
+    p1.status = "Active",
+    p1.budget = 1500000;
+
+MERGE (p2:Project {id: 102})
+SET p2.title = "Banking System",
+    p2.status = "Active",
+    p2.budget = 2500000;
+
+MERGE (p3:Project {id: 103})
+SET p3.title = "Mobile Application",
+    p3.status = "Development",
+    p3.budget = 900000;
+
+MERGE (p4:Project {id: 104})
+SET p4.title = "CRM System",
+    p4.status = "Completed",
+    p4.budget = 1200000;
+
+// Технологии
+
+MERGE (t1:Technology {id: 201})
+SET t1.name = "Python",
+    t1.category = "Backend",
+    t1.version = "3.12";
+
+MERGE (t2:Technology {id: 202})
+SET t2.name = "JavaScript",
+    t2.category = "Frontend",
+    t2.version = "ES2024";
+
+MERGE (t3:Technology {id: 203})
+SET t3.name = "Java",
+    t3.category = "Backend",
+    t3.version = "21";
+
+MERGE (t4:Technology {id: 204})
+SET t4.name = "React Native",
+    t4.category = "Mobile",
+    t4.version = "0.76";
+
+CREATE CONSTRAINT developer_id_unique IF NOT EXISTS
+FOR (d:Developer)
+REQUIRE d.id IS UNIQUE;
+
+CREATE CONSTRAINT project_id_unique IF NOT EXISTS
+FOR (p:Project)
+REQUIRE p.id IS UNIQUE;
+
+CREATE CONSTRAINT technology_id_unique IF NOT EXISTS
+FOR (t:Technology)
+REQUIRE t.id IS UNIQUE;
